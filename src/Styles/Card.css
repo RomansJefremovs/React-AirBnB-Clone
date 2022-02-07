@@ -1,0 +1,65 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    background-color: #e8e7e3;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 9px;
+    text-align: center;
+    position: relative;
+
+
+}
+
+@media (max-width: 700px){
+    .card{
+        width: 190px;
+    }
+    .katie{
+        width: 176px;
+    }
+}
+
+@media (min-width: 701px){
+    .card{
+        width: 310px;
+    }
+    .katie{
+        width: 264px;
+    }
+}
+
+.katie{
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.rating{
+    margin: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.rating > span{
+    padding-left: 5px;
+}
+.rating > img{
+    height: 14px;
+}
+.grey{
+    color: #918E9B;
+}
+
+.card--price {
+    margin-top: auto;
+}
+
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--badge{
+
+}
